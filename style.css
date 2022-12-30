@@ -8,7 +8,7 @@
     body {
         background-image: url(./image/dara.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         font-family: sans-serif;
         height: 100vh;
     }
