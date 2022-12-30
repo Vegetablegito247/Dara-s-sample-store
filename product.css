@@ -1,0 +1,211 @@
+@media (max-width: 425px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        width: 100%;
+        padding: 10px;
+        background-color: hsl(60, 100%, 50%);
+    }
+
+    .logo {
+        padding: 10px 0 10px 8px;
+        border-radius: 6px;
+        width: 220px;
+        margin: 0 auto;
+        background-color: blue;
+    }
+
+    .logo h3 {
+        color: rgb(255, 255, 255);
+    }
+
+    body {
+        background-color: black;
+    }
+    .countDn {
+        margin: 2rem 0 1rem;
+        background-color: hsl(0, 0%, 0%);
+        border-radius: 6px;
+        width: 100%;
+    }
+
+    .time {
+        background-color: hsl(240, 100%, 50%);
+        padding: 15px 0;
+        text-align: center;
+        border-radius: 6px;
+    }
+
+    .timeleft {
+        width: 100%;
+        background-color: hsl(240, 100%, 50%);
+    }
+
+    .time h4 {
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 0;
+    }
+
+    .count {
+        display: block;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .prot1 img,
+    .prot2 img,
+    .prot3 img {
+        width: 250px;
+        height: 300px;
+    }
+
+    .prot1 P,
+    .prot2 P,
+    .prot3 P {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+
+    .prot1 .pFlex,
+    .prot2 .pFlex2,
+    .prot3 .pFlex3 {
+        display: flex;
+    }
+
+    .pFlex h4,
+    .pFlex2 h4,
+    .pFlex3 h4 {
+        font-size: 16px;
+        margin-left: 2rem;
+        margin-bottom: 0;
+    }
+
+    .pFlex h5,
+    .pFlex2 h5,
+    .pFlex3 h5 {
+        font-size: 14px;
+        padding: 4px 6px;
+        background-color: hsl(240, 100%, 50%);
+        color: hsl(0, 0%, 100%);
+        border-radius: 4px;
+        margin-left: 1rem;
+        margin-bottom: 0;
+    }
+
+    .cancel h4 {
+        font-size: 12px;
+        text-decoration: line-through;
+        text-align: start;
+        margin-left: 2rem;
+    }
+
+    .prot1,
+    .prot2,
+    .prot3 {
+        text-align: center;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 6px;
+        background-color: hsl(0, 0%, 100%);
+        transition: 1s;
+    }
+
+    .prot1:hover,
+    .prot2:hover,
+    .prot3:hover {
+        box-shadow: 0 0 1rem hsl(240, 100%, 50%);
+    }
+
+    .products-view {
+        margin: 3rem auto 6rem;
+        width: 100%;
+        padding: 20px;
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 8px 5px 2rem hsl(240, 100%, 50%);
+        border-radius: 10px;
+        display: none;
+    }
+
+    .choice {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .pItem img {
+        width: 330px;
+        height: 380px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .pCHead h4 {
+        letter-spacing: 1px;
+        color: hsl(240, 100%, 50%);
+        margin-top: 2rem;
+    }
+
+    .pCHead h1 {
+        margin-top: 1rem;
+    }
+
+    .pCDetails p {
+        width: 100%;
+        margin-top: 1.5rem;
+        color: hsl(219, 9%, 45%);
+    }
+
+    .pCPrice {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .pCPrice h5 {
+        margin-left: 14px;
+        padding: 2px 4px;
+        border: none;
+        border-radius: 4px;
+        color: hsl(240, 100%, 50%);
+        background: hsl(240, 100%, 90%);
+    }
+
+    .canceled h5 {
+        color: hsl(220, 14%, 75%);
+        margin-top: 7px;
+        text-decoration: line-through;
+    }
+
+    .btns {
+        display: block;
+        justify-content: space-around;
+        margin-top: 1.5rem;
+    }
+
+    .addCart,
+    .buyNow {
+        display: flex;
+        padding: 10px 20px;
+        margin: 15px 0;
+        border-radius: 6px;
+        background-color: hsl(240, 100%, 50%);
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+
+    .addCart i,
+    .buyNow i {
+        line-height: normal;
+        margin-right: 40px;
+        padding-top: 3px;
+    }
+
+    .addCart p,
+    .buyNow p {
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+
+}

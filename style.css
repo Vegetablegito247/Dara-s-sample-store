@@ -1,0 +1,92 @@
+@media (max-width:425px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url(./image/dara.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: sans-serif;
+    }
+
+    nav {
+        width: 100%;
+        padding: 10px;
+        background-color: hsl(60, 100%, 50%);
+    }
+
+    .logo {
+        padding: 10px 0 10px 8px;
+        border-radius: 6px;
+        width: 220px;
+        margin: 0 auto;
+        background-color: blue;
+    }
+
+    .logo h3 {
+        color: rgb(255, 255, 255);
+    }
+
+    .details {
+        width: 300px;
+        border-radius: 6px;
+        background-color: rgba(0, 0, 139, 0.593);
+        color: white;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .details h4 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .details p {
+        padding: 8px;
+        color: rgb(255, 255, 255);
+        border-radius: 6px;
+        font-weight: 200;
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .links {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .link-1,
+    .link-2,
+    .link-3,
+    .link-4 {
+        width: 100%;
+        border-radius: 35px;
+        padding: 10px 0;
+        margin: 10px 0;
+        background-color: rgba(231, 68, 95, 0.567);
+        color: white;
+        text-align: center;
+        transition: .7s;
+    }
+
+    .link-1 a,
+    .link-2 a,
+    .link-3 a,
+    .link-4 a {
+        text-decoration: none;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+    }
+
+    .link-1:hover,
+    .link-2:hover,
+    .link-3:hover,
+    .link-4:hover {
+        background-color: rgba(0, 0, 139, 0.593);
+        color: white;
+    }
+}
